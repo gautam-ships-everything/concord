@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  concord:
+    build: .
+    container_name: concord-negotiator
+    ports:
+      - "8501:8501"
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY:-}
+      - MODEL_NAME=gemma-4-27b-it
+    volumes:
+      - ./transcripts:/app/transcripts
+      - ./results:/app/results
+    restart: unless-stopped

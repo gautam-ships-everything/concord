@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Output directories (ignore temp logs, keep generated figures)
+transcripts/*.json
+!transcripts/.gitkeep
+
+# OS artifacts
+.DS_Store
+Thumbs.db
