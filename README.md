@@ -144,11 +144,3 @@ The project can be deployed locally or to cloud platforms:
   Access the web interface at `http://localhost:8501`.
 
 ---
-
-## 🎓 Academic Attribution
-
-- **Author:** Gautam Soni (Enrollment: 0808CS241120)
-- **Supervisor:** Mrs. Preeti Agrawal
-- **Institution:** IPS Academy, Institute of Engineering & Science (Affiliated to RGPV Bhopal)
-- **Degree:** Bachelor of Technology in Computer Science & Engineering (Session: 2026–27)
-- **License:** MIT
